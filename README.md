@@ -19,7 +19,13 @@ def isHappy(n):
 
   return n == 1
 ```
-* description of your code
+* Explanation of the code
+1. make set 'change' which contains records of sum of the squares of the number's digits
+2. add current number 'n' to 'change'
+3. calculate sum of the squares of the number's digits and save it to 'n'
+4. go to step 2 and repeat while 'n' is not 1 or 'n' is not in 'change'
+5. if n is 1, return True (happy number)
+6. if not, return False
 ___
 ## Week 5 Assignment
 > ```bash
