@@ -19,4 +19,17 @@ def isHappy(n):
 
   return n == 1
 ```
-* 
+* description of your code
+___
+## Week 5 Assignment
+> ```
+> docker exec ossp-container cat /etc/os-release
+> ```
+> * Explanation
+> * output \
+> ```
+> docker exec ossp-container git --version
+> ```
+> *
+> * output \
+> 
