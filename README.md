@@ -26,10 +26,22 @@ ___
 > docker exec ossp-container cat /etc/os-release
 > ```
 > * Explanation
-> * output \
+> * output
+<br>
 > ```
 > docker exec ossp-container git --version
 > ```
 > *
-> * output \
-> 
+> * output
+<br>
+> ```
+> docker exec ossp-container python3 --version
+> ```
+> *
+> * output
+<br>
+> ```
+> docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
+> ```
+> *
+> * output
