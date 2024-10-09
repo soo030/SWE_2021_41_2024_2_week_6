@@ -32,7 +32,7 @@ ___
 > docker exec ossp-container cat /etc/os-release
 > ```
 > * runs container and checks version
-> * Output
+> __Output__
 > ```bash
 > PRETTY_NAME="Ubuntu 24.04.1 LTS"
 > NAME="Ubuntu"
@@ -53,7 +53,7 @@ ___
 > docker exec ossp-container git --version
 > ```
 > * prints the version of git if successfully installed
-> * Output
+> __Output__
 > ```bash
 > git version 2.43.0
 > ```
@@ -62,7 +62,7 @@ ___
 > docker exec ossp-container python3 --version
 > ```
 > * prints the version of python3 if successfully installed
-> * Output
+> __Output__
 > ```bash
 > Python 3.12.3
 > ```
@@ -70,8 +70,8 @@ ___
 > ```bash
 > docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 > ```
-> *
 > * prints path of mounted directory of the specified container
+> __Output__
 > ```bash
 > [/root/ossp_host_dir:/mnt/ossp_container_dir]
 > ```
