@@ -22,25 +22,25 @@ def isHappy(n):
 * description of your code
 ___
 ## Week 5 Assignment
-> ```
+> ```bash
 > docker exec ossp-container cat /etc/os-release
 > ```
 > * Explanation
 > * output
 <br>
-> ```
+> ```bash
 > docker exec ossp-container git --version
 > ```
 > *
 > * output
 <br>
-> ```
+> ```bash
 > docker exec ossp-container python3 --version
 > ```
 > *
 > * output
 <br>
-> ```
+> ```bash
 > docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 > ```
 > *
