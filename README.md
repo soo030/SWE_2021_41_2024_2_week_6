@@ -32,7 +32,7 @@ ___
 > docker exec ossp-container cat /etc/os-release
 > ```
 > * runs container and checks version\
->__Output__
+> * __Output__
 > ```bash
 > PRETTY_NAME="Ubuntu 24.04.1 LTS"
 > NAME="Ubuntu"
