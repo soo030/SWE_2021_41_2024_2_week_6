@@ -27,21 +27,18 @@ ___
 > ```
 > * Explanation
 > * output
-<br>
 
 > ```bash
 > docker exec ossp-container git --version
 > ```
 > *
 > * output
-<br>
 
 > ```bash
 > docker exec ossp-container python3 --version
 > ```
 > *
 > * output
-<br>
 
 > ```bash
 > docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
