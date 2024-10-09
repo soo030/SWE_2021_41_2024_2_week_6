@@ -53,7 +53,7 @@ ___
 > docker exec ossp-container git --version
 > ```
 > * prints the version of git if successfully installed\
-> __Output__
+ __Output__
 > ```bash
 > git version 2.43.0
 > ```
