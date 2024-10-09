@@ -54,7 +54,7 @@ ___
 > ```
 > *
 > * Output
-> '''bash
+> ```bash
 > git version 2.43.0
 > ```
 
