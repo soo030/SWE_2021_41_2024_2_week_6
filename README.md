@@ -33,7 +33,7 @@ ___
 > ```
 > * Explanation
 > * Output
-> '''bash
+> ```bash
 > PRETTY_NAME="Ubuntu 24.04.1 LTS"
 > NAME="Ubuntu"
 > VERSION_ID="24.04"
